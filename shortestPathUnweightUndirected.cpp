@@ -20,7 +20,7 @@ int main()
     }
 
     int dist[nodes+1];
-    //memset(dist,INT_MAX,sizeof(dist));
+  
 
     for(int i=0;i<nodes+1;i++)
         dist[i]=INT_MAX;
