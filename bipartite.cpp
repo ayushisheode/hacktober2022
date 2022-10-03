@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int color[10000];
+int color[10000]={0};
 
 bool dfs(int cur,vector<int>adj[])
 {
@@ -49,8 +49,8 @@ int main()
     }
 
     if(check(adj,nodes))
-        cout<<"yes"<<endl;
+        cout<<"Yes"<<endl;
     else
-        cout<<"no"<<endl;
+        cout<<"No"<<endl;
 
 }
