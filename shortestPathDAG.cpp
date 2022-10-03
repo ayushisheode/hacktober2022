@@ -65,7 +65,7 @@ int main()
         cin >> x >> y >> wt;
         adj[x].push_back({y,wt});
     }
-    // memset(vis,false,sizeof(vis));
+   
     for(int i=0;i<sizeof(vis);i++)
         vis[i]=false;
 
