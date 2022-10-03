@@ -13,9 +13,9 @@ void fun(string ip,string op)
     op2.push_back(ip[0]);
     ip.erase(0,1);
 
-    // cout<<"ip:"<<ip;
-    // cout<<" op1:"<<op1;
-    // cout<<" op2:"<<op2<<endl;
+     cout<<"ip:"<<ip;
+     cout<<" op1:"<<op1;
+     cout<<" op2:"<<op2<<endl;
 
     fun(ip,op1);
     fun(ip,op2);
@@ -24,6 +24,6 @@ void fun(string ip,string op)
 int main() {
     string s;
     cin>>s;
-
     fun(s,"");
+    
 }
